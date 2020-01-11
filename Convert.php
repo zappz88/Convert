@@ -19,8 +19,7 @@ class Convert {
         }
         else
         {
-            $type = gettype($val);
-            throw new Exception("Argument {$val} of type {$type} is not of valid type");
+            return null;
         }
     }
     
@@ -32,8 +31,7 @@ class Convert {
         }
         else
         {
-            $type = gettype($val);
-            throw new Exception("Argument {$val} of type {$type} is not of valid type");
+            return null;
         }
     }
     
@@ -45,8 +43,7 @@ class Convert {
         }
         else
         {
-            $type = gettype($val);
-            throw new Exception("Argument {$val} of type {$type} is not of valid type");
+            return null;
         }
     }
     
@@ -58,8 +55,7 @@ class Convert {
         }
         else
         {
-            $type = gettype($val);
-            throw new Exception("Argument {$val} of type {$type} is not of valid type");
+            return null;
         }
     }
     
@@ -74,8 +70,7 @@ class Convert {
         }
         else
         {
-            $type = gettype($val);
-            throw new Exception("Argument {$val} of type {$type} is not of valid type");
+            return null;
         }
     }
 }
